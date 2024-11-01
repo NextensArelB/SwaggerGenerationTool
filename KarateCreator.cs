@@ -58,6 +58,7 @@ public class KarateCreator {
         }
         catch (Exception ex)
         {
+            Console.WriteLine(ex.Message);
             // Handle the exception here
             Console.WriteLine("The URL: " + URL +" is incorrect.\n Please verify that the URL is of the JSON content of the swagger, not the Swagger itself. \nCheck the markdown guide for more information on how to obtain the swagger.json ");
 

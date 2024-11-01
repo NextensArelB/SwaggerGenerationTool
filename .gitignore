@@ -1,0 +1,38 @@
+# Build output
+bin/
+obj/
+
+# User-specific files
+.vs/
+slnx.sqlite
+VSWorkspaceState.json
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+*.nupkg.metadata
+
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+AutomatedKarateCreation.csproj.nuget.dgspec.json
+AutomatedKarateCreation.csproj.nuget.g.props
+AutomatedKarateCreation.csproj.nuget.g.targets
+project.assets.json
+project.nuget.cache
+
+# Other temporary files
+AutomatedKarateCreation.GeneratedMSBuildEditorConfig.editorconfig
+AutomatedKarateCreation.AssemblyInfoInputs.cache
+AutomatedKarateCreation.AssemblyInfo.cs
+AutomatedKarateCreation.csproj.CoreCompileInputs.cache
+AutomatedKarateCreation.csproj.CopyComplete
+AutomatedKarateCreation.dll
+AutomatedKarateCreation.pdb
+AutomatedKarateCreation.genruntimeconfig.cache
+
+# Node modules
+node_modules/
